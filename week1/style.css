@@ -1,0 +1,217 @@
+#wrapper{font-family:tohama;}
+.container{width:95%;
+ margin:0px auto;}
+ #subheader{
+ 	        width: 100%;
+ 	        height: 30px;
+            background: green;
+            color: white;
+            margin-top: -10px;}
+  #subheader p{
+  	            float: left;
+  	            margin-top: 7px;
+  }     
+  #subheader a{
+
+               float: right;
+               color: white;
+               text-decoration: none;
+               line-height: 30px;
+               margin-left: 30px;
+  }    
+
+  #main-header{
+                width: 100%;
+                height: 100px;
+                background:#1aaa1a;
+                float: left;
+                margin-top: -12px;
+
+  } 
+
+  #search{
+           margin-left: 450px;
+           margin-top: 32px;
+           padding-left:15px;
+
+  }
+  #logo{
+  	    margin-top: -60px;
+  }
+  #submit-button
+  {
+  	   margin-left: -2px;
+  	  width: 80px;
+  	  height: 28px;
+       color: red;
+       background:lightgreen;
+       border-radius: 5px;
+  	  
+  }
+  
+ #search-button
+ {
+	 width:28%;
+	 height:22px;
+	 margin-left:20px;
+	 }
+
+  #user-menu
+  {
+       float: right;
+       width: 300px;
+       margin-top: 20px;
+
+  }
+
+  #user-menu li{
+                   float: left;
+                   width: 140px;
+                   text-align: center;
+                   list-style: none;
+                   font-size: 20px;
+                   border-left: 1px solid black;
+ }
+
+ #user-menu li:hover{
+                     font-size: 23px;
+                     transition: all .1s linear;
+
+
+ }
+ #user-menu li a
+ { text-decoration: none; }
+
+  # header user-menu li a:hover
+  {color: red;
+
+  }
+
+
+ /*navigational code*/
+ #navigation{
+
+ 	width: 100%;
+ 	height: 35px;
+ 	background:green;
+ 	float: left;
+ 	box-shadow: 5px 10px 50px 2px #1aaa1a;
+
+ }
+
+
+
+nav a{
+margin-left: 50px;
+color: white;
+text-decoration: none;
+}
+
+nav a:hover{
+	         color: black;
+	         transition: all .1s linear;
+}
+
+nav li{margin-top: 7px;}
+
+#slider{
+     width: 100%;
+     max-width: 100%;
+     float: left;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*purana code*/
+
+
+
+
+
+
+#bodyleft{width:68%; background-color:#fff; float:left; margin-top: 140px}
+#bodyleft h2{ text-shadow:5px 5px 5px #009; background-color: #c0c; text-align:center;height:40px;line-height:40px;color:#fff; border-radius:5px}
+#bodyleft img{ width:100%; height:420px }
+#bodyleft h3{text-shadow:5px 5px 5px #009; background:#C0C; text-align: left;height:40px;line-height:40px;color:#fff; border-radius:5px; padding-left:5px; margin-top:10px; font-size:30px}
+#bodyleft ul{ list-style-type:none ; margin-top:10px;padding:1%}
+#bodyleft ul li{border: 3px solid #FFF; float:left; width:32%; height:320px}
+#bodyleft ul li a{ text-align:center; text-decoration:none; color:#000}
+#bodyleft ul li a img{ width:100%; height:220px}
+#bodyleft ul li:hover{ border-radius:3px; border: 3px solid #0F0}
+#bodyleft ul li a h4{margin-top: 10px; font-size:22px }
+#bodyleft ul li a p{ background-color:#0C0}
+
+#bodyright {background-color:#FFF; width:30%;  float: left; padding:1%; margin-top: 140px}
+#bodyright h2{ background:#C0C; color:#fff; line-height:40px; border-radius:5px; height:40px; padding-left:2%; margin-top:7px}
+#bodyright ul{ list-style-type:none}
+#bodyright ul img { width:100%; height:254px}
+
+
+
+#raju{ float:left; width:100%}
+#footer{width:100%;height:40px; background:#C0C; margin-top:-15px}
+#footer h4{ text-shadow:5px 5px 5px #000000; color:fff; text-align:center; line-height:40px}
+
+
+
+
+
+
+/*slider----css*/
+
+#body1{
+		margin:0 auto;
+		width:100%;
+		}
+		.slider{
+			overflow:hidden;
+			height:400px;
+		
+			}
+			.slider figure div{
+				float:left;
+				width:20%;
+				}
+				
+			.slider figure img{
+				width:100%;
+				float:left;
+				}
+			.slider figure{
+				position:relative;
+				width:500%;
+				margin:0px;
+				left:0px;
+				animation:20s raju infinite;}		
+				
+				
+				@keyframes raju{
+					0%{ left:0%;}
+					10%{left:0%;}
+					20%{left:-100%;}
+					30%{left:-100%;}
+					40%{left:-200%;}
+					50%{left:-200%;}
+					60%{left:-200%;}
+					70%{left:-100%;}
+					80%{left:-100%;}
+					90%{left:-100%;}
+					}
+				
+				
+				
+				
+/*slider----css*/
